@@ -1,0 +1,31 @@
+{
+  "name": "bsp",
+  "version": "1.0.0",
+  "description": "An updated WordPress theme for brycestpierre.com.",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap-css": "cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./assets/css/libs/bootstrap.min.css",
+    "bootstrap-js": "cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js ./assets/js/libs/bootstrap.bundle.min.js",
+    "fontawesome-css": "cp ./node_modules/@fortawesome/fontawesome-free/css/all.min.css ./assets/css/libs/all.min.css",
+    "fontawesome-webfonts": "cp ./node_modules/@fortawesome/fontawesome-free/webfonts ./assets -R",
+    "build": "npm run bootstrap-css && npm run bootstrap-js && npm run fontawesome-css && npm run fontawesome-webfonts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryceStPierre/bsp.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "author": "Bryce St. Pierre",
+  "license": "GNU General Public License v3.0",
+  "bugs": {
+    "url": "https://github.com/BryceStPierre/bsp/issues"
+  },
+  "homepage": "https://github.com/BryceStPierre/bsp#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3"
+  }
+}
