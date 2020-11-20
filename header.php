@@ -14,5 +14,6 @@
 </head>
 <body>
   <header>
-    <?php get_template_part( 'template-parts/navigation' ); ?>
+    <?php get_template_part( "template-parts/header/navigation" ); ?>
   </header>
+  <main class="container">
