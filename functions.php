@@ -6,8 +6,8 @@
 function bsp_scripts () {
 
   // Enqueue CSS stylesheets.
-  wp_enqueue_style( "bootstrap", get_theme_file_uri( "/assets/css/libs/bootstrap.min.css" ) );
-  wp_enqueue_style( "font-awesome-free", get_theme_file_uri( "/assets/css/libs/all.min.css" ) );
+  wp_enqueue_style( "bootstrap", get_theme_file_uri( "/assets/css/bootstrap.min.css" ) );
+  wp_enqueue_style( "font-awesome-free", get_theme_file_uri( "/assets/css/all.min.css" ) );
   wp_enqueue_style( "style", get_stylesheet_uri() );
  
   // Enqueue JavaScript scripts.

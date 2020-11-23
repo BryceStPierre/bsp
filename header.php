@@ -16,4 +16,4 @@
   <header>
     <?php get_template_part( "template-parts/header/navigation" ); ?>
   </header>
-  <main class="container">
+  <main class="container mt-4 mb-5">
