@@ -7,6 +7,8 @@
 </main>
 
 <footer class="container">
+  <hr>
+  
   <div class="row">
     <?php get_template_part( "template-parts/footer/widget-areas" ); ?>
   </div>

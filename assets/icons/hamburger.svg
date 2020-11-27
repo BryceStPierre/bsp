@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="95.458153mm"
+   height="80.197372mm"
+   viewBox="0 0 95.458153 80.197372"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="hamburger-icon.svg">
+  <title
+     id="title832">Hamburger Icon</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-130.35132"
+     inkscape:cy="-32.051486"
+     inkscape:document-units="mm"
+     inkscape:current-layer="svg8"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="3"
+     fit-margin-right="3"
+     fit-margin-bottom="3"
+     fit-margin-left="3" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Hamburger Icon</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="fill:#000000;stroke-width:0.26810816"
+     d="m 30.815682,77.197375 c -4.29129,-0.950812 -10.56868,0.871295 -12.90847,-3.804 -4.09962,-3.088386 -7.9559097,-8.716059 -4.30089,-13.604114 3.06353,-3.59925 7.35942,-0.192285 11.05437,0.02348 6.75878,1.20078 13.50021,-0.759088 20.26976,-0.278111 5.479639,-1.179095 11.193319,0.270329 16.570749,-1.911633 3.81948,-1.387216 9.77286,-1.109254 12.35107,2.634453 4.19762,2.732252 5.26863,9.220818 2.29298,13.176501 -4.40975,2.759806 -9.93147,0.353417 -14.76906,1.212518 -5.54562,1.288193 -11.19301,0.16222 -16.796729,1.029183 -4.69095,-0.134845 -9.18253,1.489271 -13.76378,1.521719 z M 83.315911,52.203686 c -5.41002,-1.680773 -11.19864,-1.94455 -16.28105,-4.612447 -5.37041,-0.202444 -10.62864,-0.536368 -15.86014,-1.013282 -4.31548,2.045282 -13.869559,-0.605718 -15.743519,0.441926 -6.88222,1.504923 -13.82487,2.864472 -20.68675,4.452091 C 9.5993523,51.266492 3.9811023,47.017948 3.0541523,41.912146 1.8843123,27.274247 19.996582,34.369412 25.619052,31.978391 c 5.30571,-0.350365 10.51638,-1.686515 15.82428,-1.797996 14.176499,2.430037 32.836819,-0.892788 45.000189,5.637061 5.24587,2.29631 7.49906,9.544946 4.98521,14.534991 -1.9939,2.3843 -5.4606,1.276106 -8.11282,1.851239 z M 20.227002,24.112007 c -3.42709,-3.857812 -7.81597,-8.319237 -6.64864,-13.972626 1.95676,-4.4530726 7.9331,-5.4582296 12.23415,-4.3859136 4.88935,1.370014 9.91323,0.788827 14.92517,0.902021 5.857609,-0.03379 11.703859,-0.182545 17.561699,0.287959 4.14666,-2.408588 10.6008,2.287958 13.51936,-2.337957 2.77589,-0.430003 6.77885,-3.118288 10.31828,-0.417033 4.55722,1.866358 8.84497,6.7964286 7.41786,11.9880646 1.22584,5.520616 -6.08377,7.76985 -10.33364,7.494946 -4.3439,0.403651 -8.06531,-2.656079 -12.29495,-2.20159 -4.2548,0.487187 -8.26582,-0.08407 -12.56141,0.04554 -6.16011,-0.96048 -12.219899,1.524872 -18.396949,0.724492 -5.21213,0.900037 -10.39562,3.194653 -15.74093,1.87212 z"
+     id="path826"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccc"
+     inkscape:label="hamburger" />
+</svg>

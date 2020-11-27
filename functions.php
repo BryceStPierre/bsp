@@ -8,10 +8,11 @@ function bsp_scripts () {
   // Enqueue CSS stylesheets.
   wp_enqueue_style( "bootstrap", get_theme_file_uri( "/assets/css/bootstrap.min.css" ) );
   wp_enqueue_style( "font-awesome-free", get_theme_file_uri( "/assets/css/all.min.css" ) );
+  wp_enqueue_style( "google-fonts", "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&family=Source+Serif+Pro:wght@400;700&display=swap", false );
   wp_enqueue_style( "style", get_stylesheet_uri() );
  
   // Enqueue JavaScript scripts.
-  wp_enqueue_script( "bootstrap", get_theme_file_uri( "/assets/js/libs/bootstrap.bundle.min.js" ), array( "jquery" ) );
+  wp_enqueue_script( "bootstrap", get_theme_file_uri( "/assets/js/bootstrap.bundle.min.js" ), array( "jquery" ) );
 
   // Enqueue JavaScript for threaded comments.
   if ( is_singular() && comments_open() && get_option( "thread_comments" ) ) {

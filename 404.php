@@ -6,6 +6,11 @@
   get_header();
 ?>
 
-<h1 class="display-3">Page is not found!</h1>
+<div class="col">
+  <div class="row">
+    <h1 class="display-4 text-break mb-4">Sorry, that page couldn't be found.</h1>
+    <?php get_search_form(); ?>
+  </div>
+</div>
 
 <?php get_footer(); ?>

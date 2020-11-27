@@ -12,3 +12,19 @@
  This theme, like WordPress, is licensed under the GPL.
  Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Source Serif Pro', 'Times New Roman', Times, serif !important;
+}
+
+a {
+  color: #343a40;
+}
+
+a:hover {
+  color: #1d2124;
+}
+
+p a {
+  text-decoration: underline;
+}

@@ -12,17 +12,17 @@
   <?php endif; ?>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <img class="navbar-toggler-icon" src="<?php echo get_template_directory_uri() . "/assets/icons/hamburger.svg"; ?>">
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <?php 
-      if ( has_nav_menu( 'main-menu' ) ): 
+      if ( has_nav_menu( "main-menu" ) ): 
         $locations = get_nav_menu_locations();
-        $menu = get_term( $locations['main-menu'], 'nav_menu' );
+        $menu = get_term( $locations["main-menu"], "nav_menu" );
         $menu_items = wp_get_nav_menu_items( $menu->term_id );
     ?>
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ml-auto">
       <?php 
         foreach( $menu_items as $menu_item ):
           if ( $menu_item->menu_item_parent == 0 ):
@@ -42,7 +42,7 @@
             <?php echo $menu_item->title; ?>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <?php echo implode( '', $menu_array ); ?>
+            <?php echo implode( "", $menu_array ); ?>
             </div>
           <?php else: ?>
           <li class="nav-item">
