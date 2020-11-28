@@ -52,16 +52,16 @@ add_action( "after_setup_theme", "bsp_setup" );
 
 function bsp_widgets_init () {
 
-//   // Registers sidebar.
-//   register_sidebar( array(
-//     "name"          => __( "Sidebar", "brycestrap" ),
-//     "id"            => "sidebar",
-//     "description"   => __( "Add widgets to the sidebar.", "brycestrap" ),
-//     "before_widget" => "<div class="widget %2$s mb-4" id="%1$s">",
-//     "after_widget"  => "</div>",
-//     "before_title"  => "<h4>",
-//     "after_title"   => "</h4>"
-//   ) );
+  // Registers sidebar.
+  register_sidebar( array(
+    "name"          => __( "Sidebar", "bsp" ),
+    "id"            => "sidebar",
+    "description"   => __( "Add widgets to the sidebar.", "bsp" ),
+    "before_widget" => '<div class="widget %2$s mb-4" id="%1$s">',
+    "after_widget"  => "</div>",
+    "before_title"  => "<h4>",
+    "after_title"   => "</h4>"
+  ) );
 
   // Registers three footer widget areas: footer, footer-2, footer-3.
   register_sidebars( 3, array(

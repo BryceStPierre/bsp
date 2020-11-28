@@ -7,21 +7,15 @@
 ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
-<article id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-  <section class="row">
+<main class="container mt-2" id="page-<?php the_ID(); ?>">
+  <div class="row">
     <div class="col">
-      <h2 class="text-break"><?php the_title(); ?></h2>
+      <small class="text-uppercase text-muted">Updated: <?php the_modified_date("F jS, Y h:i a"); ?></small>
+      <h1 class="text-break"><?php the_title(); ?></h1>
+      <article><?php the_content(); ?></article>
     </div>
-  </section>
-
-  <section class="row">
-    <div class="col">
-      <?php the_content(); ?>
-    </div>
-  </section>
-  
-</article>
+  </div>
+</main>
 <?php endwhile; ?>
 
 <?php get_footer(); ?>

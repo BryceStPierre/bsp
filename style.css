@@ -13,7 +13,7 @@
  Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, article {
   font-family: 'Source Serif Pro', 'Times New Roman', Times, serif !important;
 }
 

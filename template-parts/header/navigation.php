@@ -55,6 +55,7 @@
       <?php endforeach; ?>
       </ul>
     <?php endif; ?>
+    <?php get_template_part( "template-parts/header/social-links" ); ?>
     </div>
   </div>
 </nav>
