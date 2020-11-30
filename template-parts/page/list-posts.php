@@ -14,8 +14,8 @@
   <?php foreach( get_the_category() as $category ): ?>
     <a class="badge badge-secondary" href="<?php echo get_category_link($category->term_id); ?>"><?php echo $category->cat_name; ?></a>
   <?php endforeach; ?>
-    <br>
-    <?php if ( has_post_thumbnail() ) the_post_thumbnail( "medium", array( "class" => "mt-3 rounded" ) ); ?>
+    <!-- <br> -->
+    <!-- <?php //if ( has_post_thumbnail() ) the_post_thumbnail( "medium", array( "class" => "mt-3 rounded" ) ); ?> -->
     <p><?php the_excerpt(); ?></p>
     <p><a href="<?php the_permalink(); ?>">Continue reading...</a></p>
     <hr>

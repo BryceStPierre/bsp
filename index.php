@@ -8,10 +8,16 @@
 
 <div class="container">
   <div class="row">
-    <main class="col-md-9">
+    <main class="col-md-8">
       <?php get_template_part( "template-parts/page/list-posts" ); ?>
+
+      <p class='text-center'>
+        <?php get_template_part( 'template-parts/page/paginate-links' ); ?>
+      </p>
     </main>
-    <?php get_sidebar(); ?>
+    <aside class='col-md-4'>
+      <?php get_sidebar(); ?>
+    </aside>
   </div>
 </div>
 
