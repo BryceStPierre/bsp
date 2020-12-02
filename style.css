@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6, p, article {
   font-family: 'Source Serif Pro', 'Times New Roman', Times, serif !important;
 }
 
+article p, article ul, article ol {
+  font-size: 1.2em;
+}
+
 a {
   color: #343a40;
 }
@@ -27,4 +31,13 @@ a:hover {
 
 p a {
   text-decoration: underline;
+}
+
+.badge {
+  font-weight: 400;
+}
+
+.brand {
+  width: auto;
+  height: 25px;
 }

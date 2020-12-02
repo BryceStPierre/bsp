@@ -6,11 +6,16 @@
   get_header();
 ?>
 
-<div class="col">
-  <div class="row">
-    <h1 class="display-4 text-break mb-4">Sorry, that page couldn't be found.</h1>
-    <?php get_search_form(); ?>
+<main class="container">
+  <div class="row mt-2">
+    <div class="col">
+      <h1 class="display-6 text-break">Sorry, that page couldn't be found.</h1>
+      <p>Go <a href="<?php bloginfo("url"); ?>">home</a>, or try searching for it:</p>
+    </div>
   </div>
-</div>
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-6"><?php get_search_form(); ?></div>
+  </div>
+</main>
 
 <?php get_footer(); ?>

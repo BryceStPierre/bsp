@@ -6,12 +6,12 @@
 
 <ul class="navbar-nav">
   <li class="nav-item">
-    <a class="nav-link" title="Twitter" href="#">
+    <a class="nav-link" title="Twitter" target="_blank" href="#">
       <i class="fab fa-lg fa-twitter"></i>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" title="YouTube" href="#">
+    <a class="nav-link" title="YouTube" target="_blank" href="#">
       <i class="fab fa-lg fa-youtube"></i>
     </a>
   </li>

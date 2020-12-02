@@ -7,11 +7,11 @@
 ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
-<main class="container mt-2" id="page-<?php the_ID(); ?>">
+<main id="page-<?php the_ID(); ?>" <?php post_class("container mt-2"); ?>>
   <div class="row">
     <div class="col">
-      <small class="text-uppercase text-muted">Updated: <?php the_modified_date("F jS, Y h:i a"); ?></small>
-      <h1 class="text-break"><?php the_title(); ?></h1>
+      <small class="text-uppercase text-muted text-center d-block"><?php the_modified_date("F j, Y h:i a"); ?></small>
+      <h1 class="text-break text-center"><?php the_title(); ?></h1>
       <article><?php the_content(); ?></article>
     </div>
   </div>
