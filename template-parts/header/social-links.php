@@ -4,7 +4,6 @@
  */
 ?>
 
-
 <li class="nav-item">
   <a class="nav-link text-center d-inline-block" title="Twitter" target="_blank" href="https://twitter.com/BryceStPierre">
     <i class="fab fa-lg fa-twitter"></i>
