@@ -33,6 +33,10 @@ p a {
   text-decoration: underline;
 }
 
+.title {
+  font-size: 1.75rem;
+}
+
 .badge {
   font-weight: 400;
 }

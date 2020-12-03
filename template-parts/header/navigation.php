@@ -4,7 +4,7 @@
  */
 ?>
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-md navbar-expand-lg">
   <div class="container">
     <a href="<?php bloginfo("url"); ?>">
       <img class="brand" title="<?php bloginfo("name"); ?>" src="<?php echo get_template_directory_uri() . "/assets/img/bryce-stpierre-branding.svg"; ?>" alt="Bryce St. Pierre">
@@ -52,9 +52,9 @@
               <?php endif; ?>
                 </li>
               <?php endforeach; ?>
+          <?php get_template_part("template-parts/header/social-links"); ?>
         </ul>
       <?php endif; ?>
-      <?php get_template_part("template-parts/header/social-links"); ?>
     </div>
   </div>
 </nav>

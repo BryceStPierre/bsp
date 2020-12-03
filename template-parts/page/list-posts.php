@@ -9,7 +9,7 @@
     <?php if (has_post_thumbnail()) the_post_thumbnail("thumbnail", array("class" => "mr-3 rounded")); ?>
     <div class="media-body">
       <small class="text-uppercase text-muted"><?php the_date("F j, Y"); ?></small>
-      <h2 class="mb-0">
+      <h2 class="title mb-0">
         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
       </h2>
       <?php foreach (get_the_category() as $category) : ?>
