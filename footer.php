@@ -6,7 +6,7 @@
 
 <footer class="container">
   <?php if (is_active_sidebar("footer")) : ?>
-  <div class="row justify-content-center bg-dark">
+  <div class="row justify-content-center bg-subscribe">
     <div class="col-md-6 mt-4 mb-4">
       <?php dynamic_sidebar("footer"); ?>
     </div>

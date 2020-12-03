@@ -73,7 +73,7 @@ function bsp_widgets_init () {
     "description"   => __( "Add widgets to the footer area.", "bsp" ),
     "before_widget" => '<div class="widget %2$s" id="%1$s">',
     "after_widget"  => "</div>",
-    "before_title"  => '<h4 class="text-white">',
+    "before_title"  => '<h4>',
     "after_title"   => "</h4>"
   ) );
 }

@@ -41,3 +41,7 @@ p a {
   width: auto;
   height: 25px;
 }
+
+.bg-subscribe {
+  background-color: #eee;
+}

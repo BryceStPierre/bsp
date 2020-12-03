@@ -7,7 +7,7 @@
 ?>
 
 <?php while (have_posts()) : the_post(); ?>
-<main id="post-<?php the_ID(); ?>" <?php post_class("container"); ?>>
+<main <?php post_class("container"); ?>>
   <section class="row">
     <div class="col">
       <small class="text-uppercase text-muted text-center d-block"><?php the_modified_date("F j, Y h:i a"); ?></small>
@@ -33,7 +33,7 @@
     </div>
   </article>
 
-  <?php if ( has_tag() ) : ?>
+  <?php if (has_tag()) : ?>
   <i><?php the_tags(); ?></i>
   <?php endif; ?>
 
