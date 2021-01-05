@@ -50,3 +50,11 @@ p a {
 .bg-subscribe {
   background-color: #eee;
 }
+
+.grecaptcha-badge {
+	display: none !important;
+}
+
+.navbar-toggler-icon {
+	content: normal !important;
+}
