@@ -5,7 +5,7 @@
 ?>
 
 <li class="nav-item">
-  <a class="nav-link text-center d-inline-block" title="Instagram" target="_blank" href="https://instagram.com/wellnessbybryce">
+  <a class="nav-link text-center d-inline-block" title="Instagram" target="_blank" href="https://instagram.com/wellnesswithbryce">
     <i class="fab fa-lg fa-instagram"></i>
   </a>
   <a class="nav-link text-center d-inline-block" title="Twitter" target="_blank" href="https://twitter.com/BryceStPierre">
